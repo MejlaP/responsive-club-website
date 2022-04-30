@@ -1,0 +1,176 @@
+body {
+    background-color: beige;
+    color: darkslategrey;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*header*/
+
+header {
+    background-color: lightgreen;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        position: static;
+    }
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    padding: 1.875rem;
+    margin: 0;
+}
+
+header li:hover {
+    background-color: orange;
+}
+
+@media screen and (max-width: 450px) {
+    header li {
+        display: block;
+        padding: 0.625rem;
+    }
+}
+
+a {
+    color: darkslategrey;
+}
+
+/*main*/
+
+main {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+@media screen and (max-width: 1440px) {
+    h1, h2, h3, h4, h5, h6, p {
+        padding: 0 1.25rem;
+    }
+}
+
+.head-title {
+    background-color: orange;
+    margin-top: 5rem;
+}
+
+h1 {
+    padding: 1.25rem 1.25rem;
+}
+
+.challenge {
+    margin-top: 5.625rem;
+}
+
+@media screen and (max-width: 450px) {
+    .challenge {
+        margin-top: 3.125rem;
+    }
+}
+
+.challenge h2 {
+    color: darkred;
+    margin-bottom: 1.5625rem;
+    text-align: left;
+}
+
+.challenge-description p {
+    text-align: left;
+}
+
+.challenge-description a {
+    color: blue;
+}
+
+.challenge-description a:hover {
+    background-color: orange;
+    padding: 0.2rem;
+}
+
+.pictures {
+    margin: 3.125rem auto;
+}
+
+.pictures img {
+    margin: 0 1% 1.8%;
+    width: 35%;
+}
+
+@media screen and (max-width: 600px) {
+    .pictures img {
+        margin: 1% 1.8%;
+        width: 90%;
+    }
+}
+
+.recommendation {
+    background-color: chocolate;
+}
+
+.recommendation h2 {
+    color: white;
+    padding: 1.25rem 1.25rem 0;
+}
+
+.recommendation h2, .recommendation p {
+    color: white;
+    text-align: left;
+}
+
+.recommendation p {
+    padding: 0 1.25rem 1.25rem;
+}
+
+.encounter h2:first-child {
+    margin-top: 2.5rem;
+}
+
+.encounter h2:nth-child(3) {
+    margin: 1.875rem 0 3.75rem;
+}
+
+.encounter img {
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    .encounter img {
+        width: 60%;
+    }
+}
+
+/*footer*/
+
+footer {
+    background-color: lightgreen;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 1.875rem 0 1.25rem 1.875rem;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+@media screen and (max-width: 450px) {
+    footer p {
+        padding-left: 0;
+        text-align: center;
+    }
+}
