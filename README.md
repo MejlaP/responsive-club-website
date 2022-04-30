@@ -2,7 +2,7 @@
 
 ## Codecademy Challenge Project: Responsive Club Website
 
-### https:
+### https://mejlap.github.io/responsive-club-website/
 
 ### Project Goals
 
